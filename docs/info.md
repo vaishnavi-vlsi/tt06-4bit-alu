@@ -11,9 +11,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 Explain briefly how your 4-bit ALU works here...
 
-## How to test
+## How to use
 
-Explain how to use your project
+Explain how to use your 4-bit ALU works here...
 
 ## External hardware
 
