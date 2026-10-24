@@ -2,7 +2,6 @@
 # See https://docs.cocotb.org/en/stable/quickstart.html for more info
 
 # defaults
-export COCOTB_RESULTS_FILE = $(PWD)/results.xml
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
