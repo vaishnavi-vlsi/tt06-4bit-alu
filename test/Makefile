@@ -2,6 +2,7 @@
 # See https://docs.cocotb.org/en/stable/quickstart.html for more info
 
 # defaults
+export COCOTB_RESULTS_FILE = $(PWD)/results.xml
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
@@ -40,4 +41,4 @@ MODULE = test
 
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
-export COCOTB_RESULTS_FILE = $(PWD)/results.xml
+
