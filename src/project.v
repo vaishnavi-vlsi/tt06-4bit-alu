@@ -63,7 +63,7 @@ module tt_um_vaishnavi_4bit_alu (
     assign uo_out[7:6] = 2'b00; // Reserved pins tied to 0
 
 // Suppress unused input warnings
-    wire _unused = &{ena, clk, rst_n, uio_in[7:3], 1'bo};
+    wire _unused = &{ena, clk, rst_n, uio_in[7:3], 1'b0};
     
 
 
